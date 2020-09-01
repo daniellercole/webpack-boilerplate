@@ -1,0 +1,34 @@
+$brand-red: red;
+$brand-yellow: rgb(250, 235, 0);
+$brand-blue: blue;
+$brand-text: #222222;  
+
+//  fonts
+@mixin font-lato-regular {
+  font-family: "Lato",Helvetica,Arial,Lucida,sans-serif;
+  font-weight: normal;
+}
+@mixin font-lato-bold {
+  font-family: "Lato",Helvetica,Arial,Lucida,sans-serif;
+  font-weight: bold;
+}
+@mixin font-lato-black {
+  font-family: "Lato",Helvetica,Arial,Lucida,sans-serif;
+  font-weight: 900;
+}
+
+//  padding
+$side-padding-mobile: 15px;
+$side-padding-tablet: 50px;
+$side-padding-desktop: 90px;
+
+//  layout
+$content-max-width: 1170px;
+//  dynamic padding for header and cmapaign content
+$side-padding-xl: calc((100% - #{$content-max-width})/2);
+
+//  screen sizes
+$screen-xxs-max: 500px;
+$screen-sm: 768px;
+$screen-md: 900px;
+$screen-lg: 1100px;
