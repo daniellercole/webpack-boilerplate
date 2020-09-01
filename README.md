@@ -1,4 +1,4 @@
-# boilerplate webpack and scss starter
+# boilerplate webpack, npm and scss starter
 
 - Node version 10
 - npm run build
